@@ -1,8 +1,8 @@
-// Rest N Play Welcome Guide — simple navigation + helpers
+// Rest N Play Welcome Guide — navigation + helpers
 
 function showPage(pageId) {
   // Hide all pages
-  document.querySelectorAll('.page').forEach(page => {
+  document.querySelectorAll('.page').forEach((page) => {
     page.classList.remove('active');
   });
 
@@ -10,17 +10,16 @@ function showPage(pageId) {
   const target = document.getElementById(pageId);
   if (target) {
     target.classList.add('active');
-    // Scroll to top smoothly
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
-  // Re-initialize icons (in case of dynamic content)
+  // Re-initialize icons (dynamic content / newly visible nodes)
   if (window.lucide) {
     lucide.createIcons();
   }
 }
 
-// Copy text helper (for WiFi)
+// Copy text helper (WiFi credentials)
 function copyText(elementId) {
   const el = document.getElementById(elementId);
   if (!el) return;
@@ -28,8 +27,7 @@ function copyText(elementId) {
   const text = el.textContent.trim();
 
   navigator.clipboard.writeText(text).then(() => {
-    // Visual feedback
-    const btn = el.parentElement.querySelector('.copy-btn');
+    const btn = el.parentElement && el.parentElement.querySelector('.copy-btn');
     if (btn) {
       const original = btn.textContent;
       btn.textContent = 'Copied!';
