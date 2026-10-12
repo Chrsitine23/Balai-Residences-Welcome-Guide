@@ -1,0 +1,3994 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>Mactan Newtown Room 6G — Welcome Guide</title>
+
+    <meta
+            name="description"
+            content="Your digital welcome guide for Mactan Newtown Cebu Stay"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css"/>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+
+</head>
+
+<body>
+
+<div id="app">
+
+    <!-- =========================================================
+         COVER PAGE
+    ========================================================== -->
+
+    <section id="cover" class="page active">
+
+        <div class="cover-image">
+
+            <div class="cover-overlay"></div>
+
+            <div class="cover-content">
+
+                <p class="menu-title">
+                    WELCOME GUIDE
+                </p>
+
+                <h1 class="menu-eyebrow">
+                    Mactan Newtown Cebu Stay
+                </h1>
+
+                <p class="cover-location">Cluster 3 - 6G</p>
+
+                <div class="cover-divider"></div>
+
+                <p class="cover-location">
+                    <i data-lucide="map-pin" class="icon-sm"></i>
+                    8 Boulevard Mactan Newtown, Lapu-Lapu City
+                </p>
+
+                <button
+                        class="btn-primary"
+                        onclick="showPage('menu')"
+                >
+                    Explore Your Stay
+                    <i data-lucide="arrow-right" class="icon-sm"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         MAIN MENU
+    ========================================================== -->
+
+    <section id="menu" class="page">
+
+        <header class="menu-header">
+
+            <div>
+
+                <p class="menu-eyebrow">
+                    Mactan Newtown Cebu Stay
+                </p>
+
+                <p class="menu-eyebrow">
+                    Cluster 3 - 6G
+                </p>
+
+                <h2 class="menu-title">
+                    Welcome Guide
+                </h2>
+
+            </div>
+
+        </header>
+
+
+        <div class="icon-grid">
+
+            <!-- ROW 1 -->
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('tutorials')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="play-circle"></i>
+                </div>
+                <span>Tutorials</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('checkin')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="key-round"></i>
+                </div>
+                <span>Check In</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('checkout')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="luggage"></i>
+                </div>
+                <span>Check Out</span>
+            </button>
+
+
+            <!-- ROW 2 -->
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('location')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="map-pin"></i>
+                </div>
+                <span>Location</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('wifi')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="wifi"></i>
+                </div>
+                <span>WiFi</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('amenities')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="sofa"></i>
+                </div>
+                <span>Amenities</span>
+            </button>
+
+
+            <!-- ROW 3 -->
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('pool')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="waves"></i>
+                </div>
+                <span>Pool & Beach</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('activities')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="camera"></i>
+                </div>
+                <span>Activities</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('rules')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="shield-check"></i>
+                </div>
+                <span>House Rules</span>
+            </button>
+
+
+            <!-- ROW 4 -->
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('generator')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="zap"></i>
+                </div>
+                <span>Generator</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('emergency')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="siren"></i>
+                </div>
+                <span>Emergency</span>
+            </button>
+
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('contact')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="phone"></i>
+                </div>
+                <span>Contact</span>
+            </button>
+
+            <button
+                    class="icon-card"
+                    onclick="showPage('parking')"
+            >
+                <div class="icon-circle">
+                    <i data-lucide="car"></i>
+                </div>
+                <span>Parking Space</span>
+            </button>
+
+        </div>
+
+
+        <footer class="menu-footer">
+
+            <p>
+                Made with care for our guests
+            </p>
+
+        </footer>
+
+    </section>
+
+
+    <!-- =========================================================
+         TUTORIALS
+    ========================================================== -->
+
+    <section id="tutorials" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorials</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>How-To Tutorials</h3>
+
+                <p>
+                    Need help using something in the unit?
+                    Check the tutorials below for quick step-by-step guides.
+                </p>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="droplets" class="icon-sm"></i>
+                        What to do if there's a Brownout
+                    </h4>
+
+                    <p>
+                        Learn how to turn off the main power in breaker. This helps protect the appliances from possible
+                        power surges or electrical instability when electricity is interrupted.
+                    </p>
+
+                    <button
+                            type="button"
+                            class="btn-secondary"
+                            onclick="showPage('tutorial-generator')"
+                    >
+                        <i data-lucide="play-circle" class="icon-sm"></i>
+                        Watch Tutorial
+                    </button>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="droplets" class="icon-sm"></i>
+                        How to Switch Bath Cold and Hot Water
+                    </h4>
+
+                    <p>
+                        Quick guide on how to properly turn on the Hot and Cold Shower Water
+                    </p>
+
+                    <button
+                            type="button"
+                            class="btn-secondary"
+                            onclick="showPage('tutorial-hot-water')"
+                    >
+                        <i data-lucide="play-circle" class="icon-sm"></i>
+                        Watch Tutorial
+                    </button>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="droplets" class="icon-sm"></i>
+                        How to Turn On Bath Heater
+                    </h4>
+
+                    <p>
+                        Quick guide on how to properly turn on the Bath Heater
+                    </p>
+
+                    <button
+                            type="button"
+                            class="btn-secondary"
+                            onclick="showPage('tutorial-bath-heater')"
+                    >
+                        <i data-lucide="play-circle" class="icon-sm"></i>
+                        Watch Tutorial
+                    </button>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="droplets" class="icon-sm"></i>
+                        How to Use the Washing Machine
+                    </h4>
+
+                    <p>
+                        Quick guide on how to properly use Washing Machine
+                    </p>
+
+                    <button
+                            type="button"
+                            class="btn-secondary"
+                            onclick="showPage('tutorial-washing-machine')"
+                    >
+                        <i data-lucide="play-circle" class="icon-sm"></i>
+                        Watch Tutorial
+                    </button>
+
+                </div>
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="droplets" class="icon-sm"></i>
+                        How to Drain Bathroom Sink
+                    </h4>
+
+                    <p>
+                        Quick guide on how to properly drain the Bathroom Sink
+                    </p>
+
+                    <button
+                            type="button"
+                            class="btn-secondary"
+                            onclick="showPage('tutorial-sink-drain')"
+                    >
+                        <i data-lucide="play-circle" class="icon-sm"></i>
+                        Watch Tutorial
+                    </button>
+
+                </div>
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="droplets" class="icon-sm"></i>
+                        How to Lock and Unlock Balcony Door
+                    </h4>
+
+                    <p>
+                        Quick guide on how to properly Lock and Open the Door
+                    </p>
+
+                    <button
+                            type="button"
+                            class="btn-secondary"
+                            onclick="showPage('tutorial-door-lock')"
+                    >
+                        <i data-lucide="play-circle" class="icon-sm"></i>
+                        Watch Tutorial
+                    </button>
+
+                </div>
+
+                <div class="divider"></div>
+
+
+                <div class="note">
+
+                    <i data-lucide="info" class="icon-sm"></i>
+
+                    <span>
+                    Please follow the instructions carefully when using
+                    the appliances and facilities in the unit.
+                    If you need assistance, feel free to contact us.
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- HOT WATER SHOWER TUTORIAL -->
+    <section id="tutorial-hot-water" class="page content-page">
+
+        <div class="content-header">
+            <button
+                    class="back-btn"
+                    onclick="showPage('tutorials')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorial</h2>
+        </div>
+
+
+        <div class="tutorial-content">
+
+            <h3>How to Switch Bath Cold and Hot Water</h3>
+
+            <video
+                    class="tutorial-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+            >
+                <source src="videos/hot-water-shower.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+
+            <div class="tutorial-instructions">
+
+                <h4>Instructions</h4>
+
+                <ol>
+                    <li>
+                        Turn the knob up and to the right
+                        for cold water.
+                    </li>
+
+                    <li>
+                        Turn the knob up and to the left
+                        for hot water.
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+             GENERATOR TUTORIAL
+        ========================================================== -->
+
+    <section id="tutorial-generator" class="page content-page">
+
+        <div class="content-header">
+            <button
+                    class="back-btn"
+                    onclick="showPage('tutorials')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorial</h2>
+        </div>
+
+
+        <div class="tutorial-content">
+
+            <h3>How to Manually Turn On the Generator</h3>
+
+            <video
+                    class="tutorial-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+            >
+                <source src="videos/6G%20Generator.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+
+            <div class="tutorial-instructions">
+
+                <h4>Instructions</h4>
+
+                <ol>
+                    <li>
+                        Pull Up the Red Main Breaker to activate the Generator
+                    </li>
+                    <li>
+                        When the Main Power is restored, please remember to pull up the Black Main Breaker to return the electrical system to normal operation.
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BATH HEATER TUTORIAL -->
+    <section id="tutorial-bath-heater" class="page content-page">
+
+        <div class="content-header">
+            <button
+                    class="back-btn"
+                    onclick="showPage('tutorials')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorial</h2>
+        </div>
+
+
+        <div class="tutorial-content">
+
+            <h3>How to Turn On Bath Heater</h3>
+
+            <video
+                    class="tutorial-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+            >
+                <source src="videos/hot%20shower.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+
+            <div class="tutorial-instructions">
+
+                <h4>Instructions</h4>
+
+                <ol>
+                    <li>
+                        Simply click the POWER button
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- WASHING MACHINE TUTORIAL -->
+    <section id="tutorial-washing-machine" class="page content-page">
+
+        <div class="content-header">
+            <button
+                    class="back-btn"
+                    onclick="showPage('tutorials')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorial</h2>
+        </div>
+
+
+        <div class="tutorial-content">
+
+            <h3>How to Use the Washing Machine</h3>
+
+            <video
+                    class="tutorial-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+            >
+                <source src="videos/6G%20washing.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+
+            <div class="tutorial-instructions">
+
+                <h4>Instructions</h4>
+
+                <ol>
+                    <li>
+                        Plug in the Washing Machine
+                    </li>
+
+                    <li>
+                        Open the Faucet
+                    </li>
+                    <li>
+                        Place the clothes inside the drum
+                    </li>
+                    <li>
+                        Add the recommended amount of detergent
+                    </li>
+                    <li>
+                        Press the power button on the Washing Machine
+                    </li>
+                    <li>
+                        Turn the dial and select Quick 30
+                    </li>
+                    <li>
+                        Press the Start/Pause button
+                    </li>
+                    <li>
+                        Wait until the washing cycle is complete
+                    </li>
+                    <li>
+                        After the wash finishes, select Rinse + Spin and Press Start/Pause Again
+                    </li>
+                    <li>
+                        Once the cycle is finish, remove the clothes gently from the drum
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SINK DRAIN -->
+    <section id="tutorial-sink-drain" class="page content-page">
+
+        <div class="content-header">
+            <button
+                    class="back-btn"
+                    onclick="showPage('tutorials')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorial</h2>
+        </div>
+
+
+        <div class="tutorial-content">
+
+            <h3>How to Drain Bathroom Sink</h3>
+
+            <video
+                    class="tutorial-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+            >
+                <source src="videos/sink.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+        </div>
+
+    </section>
+
+    <!-- LOCK DOOR TUTORIAL -->
+    <section id="tutorial-door-lock" class="page content-page">
+
+        <div class="content-header">
+            <button
+                    class="back-btn"
+                    onclick="showPage('tutorials')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Tutorial</h2>
+        </div>
+
+
+        <div class="tutorial-content">
+
+            <h3>How to Lock and Open the Door</h3>
+
+            <video
+                    class="tutorial-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+            >
+                <source src="videos/Lock%20Door.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+         CHECK IN
+    ========================================================== -->
+
+    <section id="checkin" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Check In</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card checkin-guide">
+
+                <div class="checkin-heading">
+
+                    <div class="checkin-welcome-icon">
+                        <i data-lucide="key-round"></i>
+                    </div>
+
+                    <div>
+
+                        <div class="checkin-small-title">
+                            WELCOME
+                        </div>
+
+                        <h4>
+                            Room is ready!
+                        </h4>
+
+                    </div>
+
+                </div>
+
+
+                <small class="checkin-note">
+                    Early check-in is subject to room availability.
+                </small>
+
+
+                <!-- SECURITY DEPOSIT NOTE -->
+
+                <div class="checkin-alert">
+
+                    <i data-lucide="shield-check"></i>
+
+                    <p>
+                        <strong>Security Deposit</strong><br>
+                        For guests booking outside the Airbnb platform,
+                        a security deposit is required. This is fully refundable
+                        upon checkout, provided there are no damages or
+                        additional charges.
+                        <br><br>
+                        The security deposit requirement will be clearly
+                        declared before your reservation is confirmed.
+                        Our caretaker will also be available to assist you
+                        during check-in and ensure a smooth arrival.
+                    </p>
+
+                </div>
+
+
+                <div class="checkin-time-box">
+
+                    <div class="checkin-time-icon">
+                        <i data-lucide="clock"></i>
+                    </div>
+
+                    <div>
+
+                        <div class="checkin-small-title">
+                            CHECK-IN TIME
+                        </div>
+
+                        <h4>
+                            2:00 PM
+                        </h4>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-section">
+
+                    <div class="checkin-heading">
+
+                        <div class="checkin-icon">
+                            <i data-lucide="key-round"></i>
+                        </div>
+
+                        <div>
+
+                            <span>KEY LOCATION</span>
+
+                            <h4>
+                                Mailbox 6G · Cluster 3
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <p>
+                        The key is stored in a key box inside
+                        <strong>Mailbox 6G, Cluster 3.</strong>
+                    </p>
+
+
+                    <div class="checkin-alert">
+
+                        <i data-lucide="unlock"></i>
+
+                        <p>
+                            The mailbox and keybox can be opened directly.
+                            <strong>No code or key is required.</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-section">
+
+                    <div class="checkin-heading">
+
+                        <div class="checkin-icon">
+                            <i data-lucide="navigation"></i>
+                        </div>
+
+                        <div>
+
+                            <span>STEP-BY-STEP</span>
+
+                            <h4>
+                                How to Find the Key
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkin-step">
+
+                        <div class="checkin-number">1</div>
+
+                        <div class="checkin-step-content">
+
+                            <h5>
+                                Go to Lobby 2 Concierge
+                            </h5>
+
+                            <p>
+                                Let the concierge know you're checking in for Cluster 3 - 6G, and they will assist you. You will need to sign a form before being directed to the room.
+                            </p>
+
+                            <div class="checkin-direction">
+
+                                <i data-lucide="arrow-left"></i>
+
+                                <span>
+                                <strong>Cluster 4</strong> will be on your left.
+                            </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkin-step">
+
+                        <div class="checkin-number">2</div>
+
+                        <div class="checkin-step-content">
+
+                            <h5>
+                                Go to the Mailbox Room
+                            </h5>
+
+                            <p>
+                                Walk straight down the hallway.
+                                At the end, you will see the
+                                <strong>mailbox room.</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkin-step">
+
+                        <div class="checkin-number">3</div>
+
+                        <div class="checkin-step-content">
+
+                            <h5>
+                                Find Mailbox 6G
+                            </h5>
+
+                            <p>
+                                Locate <strong>Mailbox 6G</strong> and retrieve
+                                the key from the keybox.
+                            </p>
+
+                            <div class="checkin-direction">
+
+                                <i data-lucide="unlock"></i>
+
+                                <span>
+                                No code or key is required.
+                            </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkin-step">
+
+                        <div class="checkin-number">4</div>
+
+                        <div class="checkin-step-content">
+
+                            <h5>
+                                Proceed to the 6th Floor
+                            </h5>
+
+                            <p>
+                                Go outside the mailbox room where you will find
+                                <strong>two elevators.</strong>
+                            </p>
+
+                            <p>
+                                You can take either elevator to go to the
+                                <strong>6th floor.</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-section">
+
+                    <div class="checkin-heading">
+
+                        <div class="checkin-icon">
+                            <i data-lucide="door-open"></i>
+                        </div>
+
+                        <div>
+
+                            <span>FIND YOUR ROOM</span>
+
+                            <h4>
+                                Room 6G
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkin-option">
+
+                        <div class="checkin-option-header">
+
+                            <strong>Option 1</strong>
+
+                            <span>
+                            Right Elevator
+                        </span>
+
+                        </div>
+
+
+                        <div class="checkin-route">
+
+                            <div>1</div>
+
+                            <p>
+                                Take the <strong>right elevator</strong>
+                                to the 6th floor.
+                            </p>
+
+                        </div>
+
+
+                        <div class="checkin-route">
+
+                            <div>2</div>
+
+                            <p>
+                                Turn <strong>left</strong>, then
+                                <strong>left again.</strong>
+                            </p>
+
+                        </div>
+
+
+                        <div class="checkin-route">
+
+                            <div>3</div>
+
+                            <p>
+                                Proceed to <strong>Room 6G.</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkin-option">
+
+                        <div class="checkin-option-header">
+
+                            <strong>Option 2</strong>
+
+                            <span>
+                            Left Elevator
+                        </span>
+
+                        </div>
+
+
+                        <div class="checkin-route">
+
+                            <div>1</div>
+
+                            <p>
+                                Take the <strong>left elevator</strong>
+                                to the 6th floor.
+                            </p>
+
+                        </div>
+
+
+                        <div class="checkin-route">
+
+                            <div>2</div>
+
+                            <p>
+                                Turn <strong>right</strong>, then
+                                <strong>left.</strong>
+                            </p>
+
+                        </div>
+
+
+                        <div class="checkin-route">
+
+                            <div>3</div>
+
+                            <p>
+                                Proceed to <strong>Room 6G.</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-section">
+
+                    <div class="checkin-heading">
+
+                        <div class="checkin-icon">
+                            <i data-lucide="waves"></i>
+                        </div>
+
+                        <div>
+
+                            <span>POOL ACCESS</span>
+
+                            <h4>
+                                Pool Stub
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <p>
+                        You may obtain your <strong>pool stub</strong>
+                        from the concierge during or after check-in.
+                    </p>
+
+
+                    <div class="checkin-location">
+
+                        <i data-lucide="map-pin"></i>
+
+                        <div>
+
+                            <span>POOL LOCATION</span>
+
+                            <strong>5th Floor</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-help">
+
+                    <i data-lucide="message-circle"></i>
+
+                    <div>
+
+                        <strong>
+                            Need help?
+                        </strong>
+
+                        <p>
+                            If anything falls short, please let us know
+                            so we can address it promptly.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <img
+                        src="images/6G%20Check%20in.jfif"
+                        alt="Check-in guide"
+                        loading="lazy"
+                />
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         LOCATION
+    ========================================================== -->
+
+    <section id="location" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Location</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>
+                    Finding Us
+                </h3>
+
+
+                <p class="address">
+
+                    <strong>8 Newtown Boulevard</strong><br/>
+                    Mactan Newtown<br/>
+                    Cluster 3, Room 6G<br/>
+                    Lapu-Lapu City, Cebu
+
+                </p>
+
+
+                <p>
+                    In between <strong>Cafe Outings</strong>  & <strong>Concentrix</strong>, next to Starbucks
+                </p>
+
+
+                <a
+                        href="https://maps.app.goo.gl/BtnKasTfDurrurBA8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-secondary"
+                >
+                    <i data-lucide="map" class="icon-sm"></i>
+                    Open in Google Maps
+                </a>
+
+
+                <div class="divider"></div>
+
+
+                <h4>
+                    Getting Here From the Airport
+                </h4>
+
+                <p>
+                    You can book a <strong>Grab or taxi</strong> to
+                    <strong>Mactan Newtown.</strong>
+                </p>
+
+                <p>
+                    The property is approximately a
+                    <strong>15-minute drive</strong> from
+                    Mactan-Cebu International Airport,
+                    depending on traffic.
+                </p>
+
+
+                <div class="divider"></div>
+
+
+                <h4>
+                    Which Lobby?
+                </h4>
+
+
+                <ul class="simple-list">
+
+                    <li>
+                        <strong>Lobby 1</strong> — Cluster 1 & Cluster 2
+                        <br/>
+                        <span>
+                        In between Robinson Easy Mart & Ding How Restuarant
+                    </span>
+                    </li>
+
+                    <li>
+                        <strong>Lobby 2</strong> — Cluster 3 & Cluster 4
+                        <br/>
+                        <span>
+                        In between Robinson Cafe Outings & Concentrix,next to Starbucks
+                    </span>
+                    </li>
+
+                    <img src="images/Lobby2.jfif" class="lobby-image"/>
+
+                </ul>
+
+
+                <div class="note">
+
+                    <i data-lucide="info" class="icon-sm"></i>
+
+                    <span>
+                    For <strong>Room 6G, Cluster 3</strong>, please proceed
+                    to <strong>Lobby 2</strong> and tell the concierge
+                    you are checking in for
+                    <strong>Cluster 3-6G.</strong>
+                </span>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+                <h4>
+                    What's Nearby
+                </h4>
+
+                <ul class="simple-list nearby-list">
+
+                    <li>
+                        <i data-lucide="shopping-basket" class="icon-sm"></i>
+                        <span>Robinsons Easymart</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="wine" class="icon-sm"></i>
+                        <span>Lux Bar</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="briefcase-business" class="icon-sm"></i>
+                        <span>Concentrix</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="coffee" class="icon-sm"></i>
+                        <span>Starbucks</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="store" class="icon-sm"></i>
+                        <span>On-site convenience and grocery stores</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="utensils" class="icon-sm"></i>
+                        <span>Cafés and restaurants</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="bus" class="icon-sm"></i>
+                        <span>Mactan Newtown transport terminal</span>
+                    </li>
+
+                    <li>
+                        <i data-lucide="waves" class="icon-sm"></i>
+                        <span>
+            Mactan Newtown Beach
+            <small>Approximately 10–15 minutes on foot</small>
+        </span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+             PARKING
+        ========================================================== -->
+
+    <section id="parking" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Parking</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>
+                    Parking Options
+                </h3>
+
+                <p>
+                    Parking slots may be available for rent from
+                    slot owners, depending on current availability.
+                </p>
+
+
+                <div class="contact-block">
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="square-parking"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Parking Slot
+                        </span>
+
+                            <span class="value">
+                            <strong>
+                                ₱400 per night
+                            </strong>
+                        </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="credit-card"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Payment
+                        </span>
+
+                            <span class="value">
+                            <strong>
+                                Lobby Concierge / Security
+                            </strong>
+                        </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="info"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Availability
+                        </span>
+
+                            <span class="value">
+                            Check with the Lobby Concierge / Security
+                            upon arrival.
+                        </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Nearby Paid Parking
+                </h3>
+
+                <p>
+                    While we don’t have an exclusive parking lot for
+                    our guests, there are convenient paid parking
+                    options nearby.
+                </p>
+
+
+                <div class="contact-block">
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="map-pin"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Recommended
+                        </span>
+
+                            <span class="value">
+                            <strong>
+                                In front of 7/11, beside the
+                                Megaworld Showroom
+                            </strong>
+                        </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="map-pin"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Second Option
+                        </span>
+
+                            <span class="value">
+                            <strong>
+                                Across from the Union Bank area
+                            </strong>
+                        </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="wallet"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Rates
+                        </span>
+
+                            <span class="value">
+                            ₱35 for the first 3 hours +
+                            ₱5 for each additional hour
+                        </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="info"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+
+                    Nearby parking is charged per entry.
+                    Re-entry will be charged again.
+
+                    <br><br>
+
+                    Example: If you park at 2:00 PM upon
+                    check-in and leave at 11:00 AM the next day,
+                    the total parking duration is 21 hours.
+
+                    <br><br>
+
+                    First 3 hours = ₱35<br>
+                    Remaining 18 hours × ₱5 = ₱90<br>
+
+                    <strong>
+                        Total = ₱125
+                    </strong>
+
+                    <br><br>
+
+                    A 24-hour parking stay will cost
+                    <strong>₱140</strong>.
+
+                    <br><br>
+
+                    For the most convenient access, we recommend
+                    the parking lot beside the Megaworld Showroom.
+
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+         WIFI
+    ========================================================== -->
+
+    <section id="wifi" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>WiFi</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card wifi-card">
+
+                <div class="wifi-icon">
+                    <i data-lucide="wifi"></i>
+                </div>
+
+
+                <h3>
+                    Stay Connected
+                </h3>
+
+
+                <p>
+                    Enjoy high-speed WiFi during your stay.
+                </p>
+
+
+                <div class="wifi-row">
+
+                <span class="label">
+                    Network Name
+                </span>
+
+                    <span
+                            class="value"
+                            id="wifi-name"
+                    >
+                    GFiber_56DE4
+                </span>
+
+                    <button
+                            class="copy-btn"
+                            onclick="copyText('wifi-name')"
+                    >
+                        Copy
+                    </button>
+
+                </div>
+
+
+                <div class="wifi-row">
+
+                <span class="label">
+                    Password
+                </span>
+
+                    <span
+                            class="value"
+                            id="wifi-pass"
+                    >
+                    0 2 E 8 8 0 5 2
+                </span>
+
+                    <button
+                            class="copy-btn"
+                            onclick="copyText('wifi-pass')"
+                    >
+                        Copy
+                    </button>
+
+                </div>
+
+
+                <p class="hint">
+                    If you encounter any issues connecting to the WiFi,
+                    please try unplugging the modem or restarting it.
+                    This usually resolves the problem.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         HOUSE RULES
+    ========================================================== -->
+
+    <section id="rules" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>House Rules</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <ul class="rules-list">
+
+                    <li>
+
+                        <i
+                                data-lucide="clock"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Check-In & Check-Out
+                            </strong>
+
+                            <p>
+                                <strong>Check-in:</strong> 2:00 PM
+                                <br/>
+                                <strong>Check-out:</strong> 11:00 AM
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li>
+
+                        <i
+                                data-lucide="footprints"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Shoes Off, Slippers On
+                            </strong>
+
+                            <p>
+                                Please remove your shoes inside the unit.
+                                Indoor slippers are provided for your convenience.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="cigarette-off"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                No Smoking
+                            </strong>
+
+                            <p>
+                                Smoking is strictly prohibited inside the unit.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="trash-2"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Garbage
+                            </strong>
+
+                            <p>
+                                There is no need to take out the trash during your stay.
+                                However, if the bin becomes full, we kindly ask that you
+                                bring it to the
+                                <strong>garbage room next to the elevator.</strong>
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="lightbulb"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Air Conditioning & Lights
+                            </strong>
+
+                            <p>
+                                Please turn off the air conditioning and lights if you
+                                will be out for a while. If you will be back soon,
+                                leaving them on is fine.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="sparkles"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Keep Things Clean
+                            </strong>
+
+                            <p>
+                                Please avoid stains and damage. Help us keep the
+                                linens, towels, floors, and furniture clean and
+                                in good condition. <strong>Additional charges</strong> may apply for excessive cleaning or damages
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="volume-x"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Quiet Hours
+                            </strong>
+
+                            <p>
+                                Quiet hours are from
+                                <strong>10:00 PM – 8:00 AM.</strong>
+                                Please keep noise to a minimum and be considerate
+                                of our neighbors.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="shirt"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                No Laundry on Balcony
+                            </strong>
+
+                            <p>
+                                Hanging or drying clothes in visible areas,
+                                including the balcony, is strictly prohibited.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <i
+                                data-lucide="tv"
+                                class="rule-icon"
+                        ></i>
+
+                        <div>
+
+                            <strong>
+                                Netflix
+                            </strong>
+
+                            <p>
+                                If you change the Netflix language settings,
+                                please switch them back to <strong>English</strong>
+                                before checkout.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="heart"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+                    Thank you for respecting our house rules and helping us
+                    keep the unit clean, peaceful, and comfortable for everyone. 🤎
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+         AMENITIES
+    ========================================================== -->
+
+    <section id="amenities" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Amenities</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>
+                    Bedroom & Living Area
+                </h3>
+
+
+                <div class="amenities-grid">
+
+                    <div class="amenity">
+                        <i data-lucide="bed-double"></i>
+                        <span>1 Full-Size Bed</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="sofa"></i>
+                        <span>3-Seater Convertible Sofa Bed</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="tv"></i>
+                        <span>Smart 50" TV with Netflix</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="wind"></i>
+                        <span>Air Conditioning</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="shirt"></i>
+                        <span>Steam Iron</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="sun"></i>
+                        <span>Private Balcony</span>
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Kitchenette
+                </h3>
+
+
+                <div class="amenities-grid">
+
+                    <div class="amenity">
+                        <i data-lucide="cooking-pot"></i>
+                        <span>Electric Stove</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="cooking-pot"></i>
+                        <span>Rice Maker</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="cooking-pot"></i>
+                        <span>Air Fryer</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="sandwich"></i>
+                        <span>4-Slice Toaster</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="microwave"></i>
+                        <span>Microwave</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="coffee"></i>
+                        <span>Hot Water Kettle</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="cooking-pot"></i>
+                        <span>Pots, Pans & Utensils</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="utensils"></i>
+                        <span>Plates, Glasses & Cutlery</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="refrigerator"></i>
+                        <span>Refrigerator</span>
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Bathroom
+                </h3>
+
+
+                <div class="amenities-grid">
+
+                    <div class="amenity">
+                        <i data-lucide="bath"></i>
+                        <span>Bathtub</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="droplets"></i>
+                        <span>Water Heater</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="shower-head"></i>
+                        <span>Bidet</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="wind"></i>
+                        <span>Hair Dryer</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="sparkles"></i>
+                        <span>Soap, Shampoo & Conditioner</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="package"></i>
+                        <span>Starter Guest Kit</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="washing-machine"></i>
+                        <span>Washer</span>
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Building & Facilities
+                </h3>
+
+
+                <div class="amenities-grid">
+
+                    <div class="amenity">
+                        <i data-lucide="waves"></i>
+                        <span>Infinity Pool</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="armchair"></i>
+                        <span>Lounge Areas</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="ferris-wheel"></i>
+                        <span>Playground</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="shield-check"></i>
+                        <span>24/7 Security</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="elevator"></i>
+                        <span>Elevators</span>
+                    </div>
+
+                    <div class="amenity">
+                        <i data-lucide="umbrella"></i>
+                        <span>Beach Access Nearby</span>
+                    </div>
+
+                </div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="info"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+                    Short-term guests do not have access to the gym.
+                    However, access may be provided upon request for
+                    guests staying longer than 7 days. Please note that
+                    shared facilities are managed and regulated by the
+                    condominium administration.
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         POOL & BEACH
+    ========================================================== -->
+
+    <section id="pool" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Pool & Beach</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <div class="info-block">
+
+                    <h3>
+                        <i data-lucide="waves" class="icon-sm"></i>
+                        Pool & Beach Access
+                    </h3>
+
+                    <p>
+                        Enjoy the building's infinity pool or visit
+                        <strong>Mactan Newtown Beach</strong> during your stay.
+                    </p>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="waves" class="icon-sm"></i>
+                        Infinity Pool
+                    </h4>
+
+                    <p>
+                        The building pool is located on the
+                        <strong>5th floor.</strong>
+                    </p>
+
+
+                    <div class="simple-list">
+
+                        <p>
+                            <strong>Pool Hours</strong><br/>
+                            6:00 AM – 10:00 PM
+                        </p>
+
+                        <p>
+                            <strong>Closed every Monday</strong><br/>
+                            Scheduled cleaning
+                        </p>
+
+                    </div>
+
+
+                    <div class="note">
+
+                        <i
+                                data-lucide="ticket"
+                                class="icon-sm"
+                        ></i>
+
+                        <span>
+
+                        <strong>Pool Stub Required</strong>
+
+                        <br/><br/>
+
+                        If you plan to use the pool, please don’t forget to get your
+                        <strong>pool stub from the lobby concierge.</strong>
+                        You’ll need to present it to the security staff at the
+                        <strong>pool cabana</strong> before using the pool.
+
+                        <br/><br/>
+
+                        You may get the pool stub
+                        <strong>before or after check-in</strong>,
+                        so you won’t have to go downstairs and back upstairs just to
+                        get it.
+
+                    </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="sun" class="icon-sm"></i>
+                        Monday Beach Alternative
+                    </h4>
+
+                    <p>
+                        When the building pool is closed on Mondays, guests may
+                        visit <strong>Mactan Newtown Beach</strong> using the
+                        discounted short-term guest rate.
+                    </p>
+
+                </div>
+
+
+                <div class="note">
+
+                    <i data-lucide="info" class="icon-sm"></i>
+
+                    <span>
+
+                    <strong>Beach Entrance Fee</strong>
+
+                    <br/><br/>
+
+                    Please be advised that the current fee is
+                    <strong>₱350.00 per person.</strong>
+                    However, the building administration has advised that
+                    this may increase to <strong>₱500.00</strong> in the future,
+                    which could possibly take effect during your stay.
+
+                </span>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <p>
+                        Children below <strong>6 years old are free</strong>,
+                        with a maximum of <strong>4 guests.</strong>
+                    </p>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="clock" class="icon-sm"></i>
+                        Beach Visiting Hours
+                    </h4>
+
+                    <p>
+                        Condominium guests may access the beach from
+                        <strong>8:00 AM – 5:00 PM.</strong>
+                    </p>
+
+                    <p>
+                        Access after <strong>5:00 PM</strong> requires payment
+                        of the applicable <strong>Night Pass</strong> fee.
+                    </p>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="map-pin" class="icon-sm"></i>
+                        Beach Entrance
+                    </h4>
+
+                    <p>
+                        To receive the discounted guest rate, proceed to the
+                        <strong>Mactan Newtown Beach Welcome Cabana
+                            Reception Area</strong>.
+                    </p>
+
+                    <p>
+                        Inform the staff that you are staying at:
+                    </p>
+
+
+                    <div class="note">
+
+                        <i data-lucide="home" class="icon-sm"></i>
+
+                        <span>
+                        <strong>
+                            8 Newtown Boulevard<br/>
+                            Cluster 3, Room 6G
+                        </strong>
+                    </span>
+
+                    </div>
+
+
+                    <p>
+                        After payment, you will receive a
+                        <strong>wristband</strong> for entry.
+                    </p>
+
+                    <p class="hint">
+                        Corkage fees may apply for outside food and beverages.
+                    </p>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="bus" class="icon-sm"></i>
+                        Complimentary Shuttle
+                    </h4>
+
+                    <p>
+                        If you prefer not to walk, a complimentary shuttle
+                        is available.
+                    </p>
+
+
+                    <div class="simple-list">
+
+                        <p>
+                            <strong>Morning</strong><br/>
+                            9:00 AM · 11:00 AM
+                        </p>
+
+                        <p>
+                            <strong>Afternoon</strong><br/>
+                            1:10 PM · 3:10 PM · 5:10 PM
+                        </p>
+
+                        <p>
+                            <strong>Pickup Point</strong><br/>
+                            Savoy Hotel
+                        </p>
+
+                    </div>
+
+
+                    <p class="hint">
+                        The shuttle follows a fixed schedule, so please
+                        plan your visit accordingly.
+                    </p>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="footprints" class="icon-sm"></i>
+                        Walking Distance
+                    </h4>
+
+                    <p>
+                        Mactan Newtown Beach is approximately
+                        <strong>10–15 minutes</strong> walking distance
+                        from the building.
+                    </p>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="ticket" class="icon-sm"></i>
+                        Regular Beach Rates
+                    </h4>
+
+                    <p>
+                        For reference, regular beach entrance rates for
+                        non-guests are:
+                    </p>
+
+
+                    <ul class="simple-list">
+
+                        <li>
+                            <strong>₱1,300</strong> — Weekdays
+                        </li>
+
+                        <li>
+                            <strong>₱1,500</strong> — Weekends
+                            <br/>
+                            <span>
+                            6:00 AM – 6:00 PM
+                        </span>
+                        </li>
+
+                        <li>
+                            <strong>₱850</strong> — Night Pass
+                            <br/>
+                            <span>
+                            6:00 PM – 10:00 PM
+                        </span>
+                        </li>
+
+                    </ul>
+
+
+                    <p class="hint">
+                        Rates may change without prior notice.
+                        Regular entrance fees include a buffet meal.
+                    </p>
+
+                </div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="shield-check"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+                    Please follow all building and beach facility rules
+                    and instructions from the staff while using the
+                    facilities.
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         ACTIVITIES
+    ========================================================== -->
+
+    <section id="activities" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Activities</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>
+                    Things to Do Around Mactan Newtown
+                </h3>
+
+
+                <ul class="simple-list">
+
+                    <li>
+
+                        <strong>
+                            Mactan Newtown Beach
+                        </strong>
+
+                        <p>
+                            Enjoy a relaxing day by the beach, swim, take photos,
+                            or simply unwind by the sea. The beach is located within
+                            Mactan Newtown and is approximately
+                            <strong>10–15 minutes on foot</strong> from the building.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/beach.avif"
+                                alt="Mactan Newtown Beach"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Mactan Newtown Boardwalk
+                        </strong>
+
+                        <p>
+                            Take a relaxing walk around the township and enjoy the
+                            seaside views, landscaped streets, restaurants,
+                            cafés, and the laid-back atmosphere of Mactan Newtown.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/boardwallk.jfif"
+                                alt="Mactan Newtown Boardwalk"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Dining & Food Trips
+                        </strong>
+
+                        <p>
+                            Explore the restaurants, cafés, and food spots around
+                            Mactan Newtown. Enjoy Filipino, Korean, Western,
+                            and international dishes within walking distance.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/chobi.avif"
+                                alt="Dining in Mactan Newtown"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Cafés & Chill Spots
+                        </strong>
+
+                        <p>
+                            Grab coffee, enjoy dessert, work remotely, or relax
+                            at one of the many cafés around Mactan Newtown.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/cafe.jfif"
+                                alt="Café in Mactan Newtown"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+                </ul>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Nearby Mactan Attractions
+                </h3>
+
+
+                <ul class="simple-list">
+
+                    <li>
+
+                        <strong>
+                            Mactan Shrine
+                        </strong>
+
+                        <p>
+                            Visit the historic Mactan Shrine and see the
+                            Lapu-Lapu Monument, Magellan Marker, and Battle
+                            of Mactan landmarks. A great place to learn more
+                            about Cebu's history.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/shrine.webp"
+                                alt="Mactan Shrine"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Mactan World Museum
+                        </strong>
+
+                        <p>
+                            Discover Filipino and Spanish heritage through
+                            exhibits, historical displays, and stories about
+                            Lapu-Lapu and the Battle of Mactan.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/museum.jpg"
+                                alt="Mactan World Museum"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Island Hopping & Snorkeling
+                        </strong>
+
+                        <p>
+                            Explore the waters around Mactan and nearby islands.
+                            Enjoy snorkeling, swimming, diving, and island-hopping
+                            tours available around Mactan.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/island%20hopping.jpg"
+                                alt="Mactan Island Hopping"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Water Sports
+                        </strong>
+
+                        <p>
+                            Try different water activities around Mactan Island,
+                            including snorkeling, diving, and other ocean adventures.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/water%20sports.jfif"
+                                alt="Water Sports in Mactan"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+                    <li>
+
+                        <strong>
+                            Cebu Yacht Club
+                        </strong>
+
+                        <p>
+                            A premier marina in Mactan offering scenic waterfront views, yacht and boat activities, and a relaxing atmosphere. A great spot for dining, sunset views, and enjoying the seaside vibe.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/CEBU-YACHT-CLUB_LXV-TRAVELS_1200X800-1.png"
+                                alt="Mactan Newtown Beach"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+                    <li>
+
+                        <strong>
+                            10K Roses
+                        </strong>
+
+                        <p>
+                            A beautiful seaside attraction in Cordova known for its stunning field of LED roses, especially magical around sunset. Perfect for photos, relaxing, and enjoying the waterfront views.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/roses.jpg"
+                                alt="Mactan Newtown Beach"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+                </ul>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Relax & Enjoy Mactan
+                </h3>
+
+
+                <ul class="simple-list">
+
+                    <li>
+
+                        <strong>
+                            Spa & Massage
+                        </strong>
+
+                        <p>
+                            Relax after a day of exploring with a massage or
+                            spa treatment. Several spas are located within
+                            a short distance of Mactan Newtown.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/spa.jpg"
+                                alt="Spa in Mactan"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Shopping & Essentials
+                        </strong>
+
+                        <p>
+                            Explore the shops and retail areas around
+                            Mactan Newtown for snacks, essentials, souvenirs,
+                            and everyday needs.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/mall.jpg"
+                                alt="Shopping in Mactan Newtown"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Sunset Walk
+                        </strong>
+
+                        <p>
+                            Take an evening walk around the Newtown waterfront
+                            and enjoy the sunset and relaxing seaside atmosphere.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/sunset.jfif"
+                                alt="Sunset in Mactan Newtown"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+                </ul>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Island Adventures
+                </h3>
+
+
+                <ul class="simple-list">
+
+                    <li>
+
+                        <strong>
+                            Olango Island
+                        </strong>
+
+                        <p>
+                            Take a boat trip to Olango Island and explore
+                            its natural surroundings and wildlife sanctuary.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/olango.jfif"
+                                alt="Olango Island"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Maribago Beaches
+                        </strong>
+
+                        <p>
+                            Explore the beaches and resort areas around
+                            Maribago, just a short drive from Mactan Newtown.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/bluewater.jpg"
+                                alt="Maribago Beach"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+
+                    <li>
+
+                        <strong>
+                            Diving & Marine Adventures
+                        </strong>
+
+                        <p>
+                            Mactan is a popular starting point for diving,
+                            snorkeling, and marine adventures around
+                            Cebu's coastline.
+                        </p>
+
+                        <img
+                                src="https://mactan-newtown-welcome-guide.onrender.com/images/diving.jpg"
+                                alt="Diving in Mactan"
+                                class="activity-image"
+                                loading="lazy"
+                        />
+
+                    </li>
+
+                </ul>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="map-pin"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+                    Mactan Newtown offers plenty of options for relaxing,
+                    dining, exploring, and enjoying the beach.
+                    Plan your activities according to your available time
+                    and preferred experience.
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         EMERGENCY
+    ========================================================== -->
+
+    <section id="emergency" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Emergency</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>
+                    Emergency Contacts
+                </h3>
+
+
+                <div class="emergency-grid">
+
+                    <div class="emergency-item">
+
+                    <span class="em-label">
+                        General Emergency
+                    </span>
+
+                        <a
+                                href="tel:911"
+                                class="em-number"
+                        >
+                            911
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Nearby Hospitals
+                </h3>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="hospital" class="icon-sm"></i>
+                        Lapu-Lapu City District Hospital
+                    </h4>
+
+                    <p>
+                        A government hospital located along Looc-Basak Road
+                        in Lapu-Lapu City. Suitable for urgent medical concerns
+                        and emergency assistance.
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:0323400249">
+                            (032) 340-0249
+                        </a>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Lapu-Lapu+City+District+Hospital"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="hospital" class="icon-sm"></i>
+                        Mactan Doctors' Hospital
+                    </h4>
+
+                    <p>
+                        A private hospital with an emergency room located along
+                        Maximo V. Patalinghug Jr. Avenue, Lapu-Lapu City.
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:0322360000">
+                            (032) 236-0000
+                        </a>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Mactan+Doctors+Hospital"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="hospital" class="icon-sm"></i>
+                        MactanMed – Mactan Optimal Medical Center
+                    </h4>
+
+                    <p>
+                        A hospital in Agus, Lapu-Lapu City providing medical
+                        services and emergency care.
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:0322609189">
+                            (032) 260-9189
+                        </a>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=MactanMed+Mactan+Optimal+Medical+Center"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Police Assistance
+                </h3>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="shield" class="icon-sm"></i>
+                        Police Assistance Center – Tourist
+                    </h4>
+
+                    <p>
+                        Located along Newtown Boulevard in Mactan Newtown,
+                        making it a convenient police assistance point for
+                        guests in the area.
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:0323402705">
+                            (032) 340-2705
+                        </a>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Police+Assistance+Center+Tourist+Mactan+Newtown"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="shield" class="icon-sm"></i>
+                        Lapu-Lapu City Police – Police Station 3
+                    </h4>
+
+                    <p>
+                        Police Station 3 is located in Gun-ob,
+                        Lapu-Lapu City. For immediate emergencies,
+                        call <strong>911</strong>.
+                    </p>
+
+                    <p>
+                        <strong>Station Hotline:</strong>
+                        <a href="tel:09985986322">
+                            0998 598 6322
+                        </a>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Lapu-Lapu+City+Police+Station+3+Gun-ob"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Fire Department
+                </h3>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="flame" class="icon-sm"></i>
+                        Bureau of Fire Protection – Lapu-Lapu City
+                    </h4>
+
+                    <p>
+                        For fire emergencies, immediately evacuate the unit
+                        and contact the Bureau of Fire Protection or call
+                        <strong>911</strong>.
+                    </p>
+
+                    <p>
+                        <strong>Fire Station:</strong>
+                        <a href="tel:0323428508">
+                            (032) 342-8508
+                        </a>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Bureau+of+Fire+Protection+Lapu-Lapu+City"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="flame" class="icon-sm"></i>
+                        Barangay Mactan Fire Sub-Station
+                    </h4>
+
+                    <p>
+                        Located along M.L. Quezon National Highway in
+                        Lapu-Lapu City and operates <strong>24 hours.</strong>
+                    </p>
+
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Barangay+Mactan+Fire+Sub-Station"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-secondary"
+                    >
+                        <i data-lucide="map" class="icon-sm"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="alert-triangle"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+
+                    <strong>
+                        For life-threatening emergencies, call 911 first.
+                    </strong>
+
+                    When requesting assistance, provide the location:
+
+                    <strong>
+                        8 Newtown Boulevard, Mactan Newtown,
+                        Cluster 3, Room 6G, Lapu-Lapu City.
+                    </strong>
+
+                </span>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <h3>
+                    Building Emergency
+                </h3>
+
+                <p>
+                    In case of a fire alarm, earthquake, or other building
+                    emergency, remain calm, follow the building's evacuation
+                    instructions, use the designated emergency exits, and
+                    proceed to the designated assembly area.
+                </p>
+
+                <p>
+                    For urgent concerns related to your stay, please use the
+                    <strong>Contact</strong> section to reach us.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CHECK OUT
+    ========================================================== -->
+
+    <section id="checkout" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Check Out</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card checkout-guide">
+
+                <div class="checkout-welcome">
+
+                    <div class="checkout-welcome-icon">
+                        <i data-lucide="door-open"></i>
+                    </div>
+
+                    <div>
+
+                        <div class="checkout-small-title">
+                            BEFORE YOU LEAVE
+                        </div>
+
+                        <h3>
+                            Thank you for staying!
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkout-time-box">
+
+                <span>
+                    CHECK-OUT TIME
+                </span>
+
+                    <strong>
+                        11:00 AM
+                    </strong>
+
+                    <small>
+                        Late check-out is subject to room availability. <br> Please let us know if you need extra time, and we'll inform you by 8:30 AM if a late check-out is possible.
+                    </small>
+
+                </div>
+
+
+                <div class="checkout-section">
+
+                    <div class="checkout-heading">
+
+                        <div class="checkout-icon">
+                            <i data-lucide="list-checks"></i>
+                        </div>
+
+                        <div>
+
+                        <span>
+                            BEFORE CHECKING OUT
+                        </span>
+
+                            <h4>
+                                Quick Checklist
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkout-step">
+
+                        <div class="checkout-number">
+                            1
+                        </div>
+
+                        <div class="checkout-step-content">
+
+                            <h5>
+                                Turn off Lights and Appliances
+                            </h5>
+
+                            <p>
+                                Please switch off the lights, air-conditioning, TV, and other appliances before leaving.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkout-step">
+
+                        <div class="checkout-number">
+                            2
+                        </div>
+
+                        <div class="checkout-step-content">
+
+                            <h5>
+                                Lock Doors and Windows
+                            </h5>
+
+                            <p>
+                                Make sure the unit door is properly closed and locked before you leave.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkout-step">
+
+                        <div class="checkout-number">
+                            3
+                        </div>
+
+                        <div class="checkout-step-content">
+
+                            <h5>
+                                Return the Keybox at Mailbox Cluster 3–6G
+                            </h5>
+
+                            <p>
+                                Place the room key in the keybox ( no code ), located mailbox at cluster 3 - 6G. If you have a moment, we'd appreciate a quick photo after placing it.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkout-step">
+
+                        <div class="checkout-number">
+                            4
+                        </div>
+
+                        <div class="checkout-step-content">
+
+                            <h5>
+                                Go to the Lobby 2 Concierge
+                            </h5>
+
+                            <p>
+                                Upon check-out, please stop by the lobby concierge to sign and confirm your check out.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkout-help">
+
+                    <i data-lucide="heart"></i>
+
+                    <div>
+
+                        <strong>
+                            Have a safe trip home!
+                        </strong>
+
+                        <p>
+                            Thank you for choosing to stay with us.
+                            We truly hope you enjoyed your stay and had
+                            a comfortable time at 8 Newtown Boulevard.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CONTACT
+    ========================================================== -->
+
+    <section id="contact" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>Contact</h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <h3>
+                    We're Here to Help
+                </h3>
+
+                <p>
+                    Have a question or need assistance during your stay?
+                    Feel free to reach out through any of the options below.
+                </p>
+
+
+                <div class="contact-block">
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="phone"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Host
+                        </span>
+
+                            <a
+                                    href="tel:09958523392"
+                                    class="value"
+                            >
+                                <strong>
+                                    0995 852 3392
+                                </strong>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="phone"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Caretaker
+                        </span>
+
+                            <a
+                                    href="tel:09212640501"
+                                    class="value"
+                            >
+                                <strong>
+                                    0921 264 0501
+                                </strong>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="message-circle"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Messenger
+                        </span>
+
+                            <a
+                                    href="https://www.facebook.com/profile.php?id=100063953355756"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="value"
+                            >
+                                <strong>
+                                    Message us on Facebook
+                                </strong>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <i
+                                data-lucide="home"
+                                class="icon-sm"
+                        ></i>
+
+                        <div>
+
+                        <span class="label">
+                            Airbnb
+                        </span>
+
+                            <a
+                                    href="https://www.airbnb.com/rooms/1474268345150786176?unique_share_id=86b85baf-f660-42e8-8032-818b09ef00d5&viralityEntryPoint=1&s=76&source_impression_id=p3_1788138754_P3nIZpxZVOPrYEB2&modal=DESCRIPTION"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="value"
+                            >
+                                <strong>
+                                    Open your Airbnb listing
+                                </strong>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="heart"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+
+                        Please use the booking platform for all official communication and documentation. For faster responses, you may also reach us via WhatsApp. Please be assured that we will continue to provide our official replies and updates through the booking platform.
+                    <br> <br> For urgent concerns during your stay, please contact us
+                    as soon as possible. For life-threatening emergencies,
+                    call <strong>911</strong> first.
+                </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         GENERATOR
+    ========================================================== -->
+
+    <section id="generator" class="page content-page">
+
+        <div class="content-header">
+
+            <button
+                    class="back-btn"
+                    onclick="showPage('menu')"
+            >
+                <i data-lucide="arrow-left"></i>
+            </button>
+
+            <h2>
+                Generator
+            </h2>
+
+        </div>
+
+
+        <div class="content-body">
+
+            <div class="content-card">
+
+                <div class="info-block">
+
+                    <h3>
+                        <i data-lucide="zap" class="icon-sm"></i>
+                        Generator During Power Outage
+                    </h3>
+
+                    <p>
+                        During a power outage, the generator need to be on
+                        <strong>Manually</strong> to provide
+                        continuous power.
+                    </p>
+
+                    <p>
+                        Please note that the generator only supports
+                        selected essential outlets and appliances.
+                    </p>
+
+                </div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="plug"
+                            class="icon-sm"
+                    ></i>
+
+                    <div>
+
+                        <strong>
+                            What will continue to work:
+                        </strong>
+
+                        <ul class="simple-list">
+
+                            <li>
+                                Refrigerator designated outlet
+                            </li>
+
+                            <li>
+                                One living room light
+                            </li>
+
+                            <li>
+                                One convenience outlet
+                            </li>
+
+                            <li>
+                                Wi-Fi connection
+                            </li>
+
+                        </ul>
+
+                        <p>
+                            These limitations help ensure that essential
+                            services remain available throughout your stay.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="zap-off" class="icon-sm"></i>
+                        During a Power Outage
+                    </h4>
+
+                    <p>
+                        To help avoid any inconvenience and protect the
+                        appliances from possible power surges or electrical
+                        instability, please follow the step below.
+                    </p>
+
+
+                    <div class="note">
+
+                        <i
+                                data-lucide="power"
+                                class="icon-sm"
+                        ></i>
+
+                        <span>
+
+                        <strong>
+                            Turn OFF the MAIN BREAKER.
+                        </strong>
+
+                        <br/><br/>
+
+                        This helps protect the appliances from possible
+                        power surges or electrical instability when
+                        electricity is interrupted.
+
+                    </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i data-lucide="power" class="icon-sm"></i>
+                        When Power Returns
+                    </h4>
+
+
+                    <ol class="styled-list">
+
+                        <li>
+
+                            <strong>
+                                Wait 3–5 minutes.
+                            </strong>
+
+                            <br/>
+
+                            Allow the electricity to stabilize.
+
+                        </li>
+
+                        <li>
+                            <strong>
+                                Turn ON the MAIN BREAKER.
+                            </strong>
+                        </li>
+
+                    </ol>
+
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="info-block">
+
+                    <h4>
+                        <i
+                                data-lucide="alert-triangle"
+                                class="icon-sm"
+                        ></i>
+                        Important Reminder
+                    </h4>
+
+                    <p>
+                        The generator is designed to provide power only
+                        to the designated essential outlets listed above.
+                        Other appliances and outlets may remain unavailable
+                        during an outage.
+                    </p>
+
+                    <p>
+                        Please make sure the
+                        <strong>MAIN BREAKER</strong> is turned OFF during
+                        an outage and only turn it back ON after waiting
+                        <strong>3–5 minutes</strong> once power has returned.
+                    </p>
+
+                </div>
+
+
+                <div class="note">
+
+                    <i
+                            data-lucide="heart"
+                            class="icon-sm"
+                    ></i>
+
+                    <span>
+                    Thank you for helping us protect the appliances
+                    and prevent inconvenience during power interruptions. 🤎
+                </span>
+
+                </div>
+
+
+                <img
+                        src="images/6G%20Generator.jfif"
+                        alt="Generator instructions"
+                        class="guide-image"
+                        loading="lazy"
+                />
+
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- =========================================================
+     MAIN SCRIPT
+========================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
